@@ -16,6 +16,7 @@ cp -r ./package-lock.json ./dist/
 cp -r ./deploy.sh ./dist/
 cp -r ./views ./dist
 rm -r ./said-temp
+rm -r ./said-temp.tar.gz
 mv ./dist ./said-temp
 tar zcvf said-temp.tar.gz --exclude=.DS_Store said-temp
 echo '============= build success ============='
