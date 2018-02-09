@@ -6,6 +6,6 @@ import { Request, Response } from "express";
  */
 export let index = (req: Request, res: Response) => {
   res.render("home", {
-    title: "Home"
+    title: "听说 - 世界很大，风住过这里"
   });
 };
