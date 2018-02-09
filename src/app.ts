@@ -33,9 +33,9 @@ app.use(express.static(path.join(__dirname, "public"), { maxAge: 31557600000 }))
  */
 app.get("/", homeController.index);
 
-app.get('/*', (req, res) => {
-  res.redirect('/')
-})
+app.get("/*", (req, res) => {
+  res.redirect("/");
+});
 
 
 module.exports = app;

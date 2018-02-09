@@ -1,3 +1,5 @@
 /node_modules
 /dist
 .DS_Store
+said-temp.tar.gz
+/said-temp
