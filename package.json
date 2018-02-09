@@ -1,12 +1,12 @@
 {
-  "name": "express-typescript-starter",
+  "name": "said-temp",
   "version": "0.1.0",
-  "description": "A starting point for Node.js express apps with TypeScript",
+  "description": "Said temp project",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/TypeScript-Node-Starter"
+    "url": "git@github.com:linkFly6/said-temp.git"
   },
-  "author": "Bowden Kelly",
+  "author": "linkFly6@live.com",
   "license": "MIT",
   "scripts": {
     "start": "npm run serve",
